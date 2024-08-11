@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(last.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+    background-color: aqua;
+    height: 575px;
+    width: 405px;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50% ;
+    border: 2px solid gray;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 10px 10px 80px black,
+    inset 3px 3px 20px gray,
+    inset -3px -3px 20px gray;
+}
+.container{
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 50%;
+    box-shadow: 10px 10px 80px black,
+    inset 3px 3px 20px gray,
+    inset -3px -3px 20px gray;
+    
+}
+.circle{
+    position: relative;
+    top: 42%;
+    left: 49.5%;
+    background-color: rgb(197, 199, 201);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+#sec , #min , #hr{
+    position: relative;
+    border-radius: 20px;
+    transform-origin: bottom;
+}
+#sec{
+    left: 51.1%;
+    top: -2%;
+    background-color: greenyellow;
+    box-shadow: 1px -10px 10px greenyellow;
+    height: 170px;
+    width: 2px;
+}
+#min{
+    left: 50.8%;
+    bottom: 32%;
+    background-color: orange;
+    height: 120px;
+    width: 5px;
+}
+#hr{
+    bottom: 51.5%;
+    left: 50.3%;
+    background-color: red;
+    height: 80px;
+    width: 8px;
+} 
+span{
+    position: relative;
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: bolder;
+}
+#six{
+    top: 90%;
+    left: 41%;
+}
+#three{
+    top: 47%;
+    left: 86%;
+}
+#one{
+    top: 4%;
+    left: 49%;
+}
+#nine{
+    top: 47%;
+    right: 6%;
+}
+#digi{
+    display: flex;
+    position: relative;
+    top: 6%;
+    left: 12%;
+    height: 85px;
+    width: 300px;
+    border-radius: 30px;
+    border: 5px solid gray;
+    font-family: 'Black Ops One', cursive;
+    box-shadow: inset 2px 2px 10px gray,
+    inset -2px -2px 10px gray;
+}
+#hours , #minutes , #seconds , .dot1 , .dot2{
+    position: relative;
+    top: 20%;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px black;
+}
+.dot1{
+    left: 13%;
+    top: 18%;
+}
+.dot2{
+    left: 20%;
+    top: 18%;
+}
+#hours{
+    color: red;
+    left: 9%;
+}
+#minutes{
+    color: orange;
+    left: 17%;
+}
+#seconds{
+    color: greenyellow;
+    left: 24%;
+}
